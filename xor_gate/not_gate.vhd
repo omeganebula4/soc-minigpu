@@ -1,0 +1,12 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity not_gate is
+	Port (INO : in STD_LOGIC;
+			OO : out STD_LOGIC);
+end not_gate;
+
+architecture behav_not of not_gate is
+begin
+	OO <= not(INO);
+end behav_not;

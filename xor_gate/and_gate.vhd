@@ -1,0 +1,13 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity and_gate is
+	Port (INO1 : in STD_LOGIC;
+			INO2 : in STD_LOGIC;
+			OO : out STD_LOGIC);
+end and_gate;
+
+architecture behav_and of and_gate is
+begin
+	OO <= INO1 and INO2;
+end behav_and;

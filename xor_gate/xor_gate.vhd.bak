@@ -1,0 +1,7 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity xor_gate is
+	Port (INO1 : in STD_LOGIC;
+			INO2 : in STD_LOGIC;
+			OO : out STD_LOGIC);

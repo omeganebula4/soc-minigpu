@@ -1,0 +1,39 @@
+library IEEE; use IEEE.STD_LOGIC_1164.all;
+library work; use work.all;
+
+entity test_bench is
+end;
+
+architecture sim of test_bench is
+	component DUT
+		port(a, b, c : in STD_LOGIC;
+				x, y : out STD_LOGIC);
+	end component;
+	
+	signal a, b, c, x, y : STD_LOGIC;
+
+begin
+	dut : DUT port map(a, b, c, x, y);
+	
+	process simulate is:
+	begin
+		a <= '0'; b <= '0'; c <= '0'; wait for 10 ns;
+			assert (x = '0' and y = '0') report "000 failed";
+		c <= '1'; wait for 10 ns;
+			assert (x = '1' and y = '0') report "001 failed";
+		b <= '1'; c <= '0'; wait for 10 ns;
+			assert (x = '1' and y = '0') report "010 failed";
+		c <= '1'; wait for 10 ns;
+			assert (x = '0' and y = '1') report "011 failed";
+		a <= '1'; b <= '0'; c <= '0'; wait for 10 ns;
+			assert (x = '1' and y = '0') report "100 failed";
+		c <= '1'; wait for 10 ns;
+			assert (x = '0' and y = '1') report "101 failed";
+		b <= '1'; c <= '0'; wait for 10 ns;
+			assert (x = '0' and y = '1') report "110 failed";
+		c <= '1'; wait for 10 ns;
+			assert (x = '1' and y = '1') report "111 failed";
+		
+		wait;
+	end process;
+end;

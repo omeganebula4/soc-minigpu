@@ -1,0 +1,15 @@
+|multiplexer
+inputs[0] => Mux0.IN7
+inputs[1] => Mux0.IN6
+inputs[2] => Mux0.IN5
+inputs[3] => Mux0.IN4
+inputs[4] => Mux0.IN3
+inputs[5] => Mux0.IN2
+inputs[6] => Mux0.IN1
+inputs[7] => Mux0.IN0
+s[0] => Mux0.IN10
+s[1] => Mux0.IN9
+s[2] => Mux0.IN8
+oo << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
