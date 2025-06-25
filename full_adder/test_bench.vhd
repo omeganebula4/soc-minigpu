@@ -48,7 +48,7 @@ begin
 		end loop;
 		
 		if (errors = 0) then
-			report "NO ERRORS -- tests completed successfully" severity note;
+			report "NO ERRORS -- All tests completed successfully" severity note;
 		else
 			report integer'image(errors) & " ERRORS" severity failure;
 		end if;

@@ -1,0 +1,12 @@
+library IEEE; use IEEE.STD_LOGIC_1164.all;
+use IEEE.STD_LOGIC_TEXTIO.ALL; use STD.TEXTIO.all;
+use work.all;
+
+entity testbench is
+end;
+
+architecture sim of testbench is
+	component reg
+		port(clk, reset : in STD_LOGIC;
+			d : in std_logic_vector((n-1) downto 0);
+			q : out std_logic_vector((n-1) downto 0));

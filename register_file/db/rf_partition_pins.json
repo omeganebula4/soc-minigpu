@@ -1,0 +1,285 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "rs_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rs_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "rs_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "rs_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rs_data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "rs_data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "rs_data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "rs_data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "rt_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rt_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "rt_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "rt_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rt_data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "rt_data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "rt_data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "rt_data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rs_address[1]",
+					"strict" : false
+				},
+				{
+					"name" : "rs_address[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rs_address[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rs_address[2]",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "en",
+					"strict" : false
+				},
+				{
+					"name" : "state[1]",
+					"strict" : false
+				},
+				{
+					"name" : "state[0]",
+					"strict" : false
+				},
+				{
+					"name" : "state[2]",
+					"strict" : false
+				},
+				{
+					"name" : "rt_address[1]",
+					"strict" : false
+				},
+				{
+					"name" : "rt_address[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rt_address[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rt_address[2]",
+					"strict" : false
+				},
+				{
+					"name" : "lsu_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "alu_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "mux_in[0]",
+					"strict" : false
+				},
+				{
+					"name" : "mux_in[1]",
+					"strict" : false
+				},
+				{
+					"name" : "immediate[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_address[1]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_address[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_address[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_address[2]",
+					"strict" : false
+				},
+				{
+					"name" : "write_en",
+					"strict" : false
+				},
+				{
+					"name" : "block_id[0]",
+					"strict" : false
+				},
+				{
+					"name" : "lsu_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "alu_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "immediate[1]",
+					"strict" : false
+				},
+				{
+					"name" : "block_id[1]",
+					"strict" : false
+				},
+				{
+					"name" : "lsu_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "alu_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "immediate[2]",
+					"strict" : false
+				},
+				{
+					"name" : "block_id[2]",
+					"strict" : false
+				},
+				{
+					"name" : "lsu_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "alu_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "immediate[3]",
+					"strict" : false
+				},
+				{
+					"name" : "block_id[3]",
+					"strict" : false
+				},
+				{
+					"name" : "lsu_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "alu_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "immediate[4]",
+					"strict" : false
+				},
+				{
+					"name" : "block_id[4]",
+					"strict" : false
+				},
+				{
+					"name" : "lsu_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "alu_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "immediate[5]",
+					"strict" : false
+				},
+				{
+					"name" : "block_id[5]",
+					"strict" : false
+				},
+				{
+					"name" : "lsu_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "alu_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "immediate[6]",
+					"strict" : false
+				},
+				{
+					"name" : "block_id[6]",
+					"strict" : false
+				},
+				{
+					"name" : "lsu_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "alu_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "immediate[7]",
+					"strict" : false
+				},
+				{
+					"name" : "block_id[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

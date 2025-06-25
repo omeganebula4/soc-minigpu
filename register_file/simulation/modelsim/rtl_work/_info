@@ -1,0 +1,97 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/harsh/Desktop/Coding/quartus_arch_design/register_file/simulation/modelsim
+Erf
+Z1 w1750872431
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8C:/Users/harsh/Desktop/Coding/quartus_arch_design/register_file/rf.vhd
+Z6 FC:/Users/harsh/Desktop/Coding/quartus_arch_design/register_file/rf.vhd
+l0
+L3 1
+VGo6B;Rb2Y>?L_aMKV]RZe2
+!s100 gXzz_ReaU^`5m1Godl=g82
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1750873728
+!i10b 1
+Z9 !s108 1750873728.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/register_file/rf.vhd|
+Z11 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/register_file/rf.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Aarch
+R2
+R3
+R4
+DEx4 work 2 rf 0 22 Go6B;Rb2Y>?L_aMKV]RZe2
+!i122 0
+l24
+L21 50
+Vz?6?C_Dl;f8oL<1=kLz?B0
+!s100 [nQ_iC]8jEbIoQ@SmWRFE1
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etestbench
+Z14 w1750873669
+R2
+R3
+R4
+!i122 1
+R0
+Z15 8C:/Users/harsh/Desktop/Coding/quartus_arch_design/register_file/rf_tb.vhd
+Z16 FC:/Users/harsh/Desktop/Coding/quartus_arch_design/register_file/rf_tb.vhd
+l0
+L5 1
+V]kGdGjI7=0X]i4Ob>40W<0
+!s100 h`]lGXCg42E<3S3:oXW_N1
+R7
+31
+Z17 !s110 1750873729
+!i10b 1
+Z18 !s108 1750873729.000000
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/register_file/rf_tb.vhd|
+!s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/register_file/rf_tb.vhd|
+!i113 1
+R12
+R13
+Astruct
+R2
+R3
+R4
+DEx4 work 9 testbench 0 22 ]kGdGjI7=0X]i4Ob>40W<0
+!i122 1
+l47
+L8 158
+V]VFb6A3McCLbLIPM5HHZX2
+!s100 oK0==h4h^:;FkV<H3S9TV3
+R7
+31
+R17
+!i10b 1
+R18
+R19
+Z20 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/register_file/rf_tb.vhd|
+!i113 1
+R12
+R13

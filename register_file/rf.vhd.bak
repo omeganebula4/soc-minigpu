@@ -1,0 +1,34 @@
+library IEEE; use IEEE.STD_LOGIC_1164.all;
+
+entity rf is
+	port(clk : in std_logic;
+		reset : in std_logic;
+		en : in std_logic;
+		state : in std_logic_vector(2 downto 0);
+		write_en : in std_logic;
+		alu_out : in std_logic_vector(7 downto 0);
+		lsu_out : in std_logic_vector(7 downto 0);
+		immediate : in std_logic_vector(7 downto 0);
+		mux_in : in std_logic_vector(1 downto 0);
+		rs_address : in std_logic_vector(3 downto 0);
+		rt_address : in std_logic_vector(3 downto 0);
+		rd_address : in std_logic_vector(3 downto 0);
+		block_id : in std_logic_vector(7 downto 0);
+		rs_data : out std_logic_vector(7 downto 0);
+		rt_data : out std_logic_vector(7 downto 0));
+end;
+
+architecture arch of rf is
+begin
+	type std_logic_2d is array (0 to 15) of std_logic_vector(7 downto 0);
+	signal reg_file : std_logic_2d
+
+	process(clk)
+	begin
+		if rising_edge(clk) then
+			if reset='1' then
+				
+		end if;
+	end process;
+
+end arch;

@@ -1,0 +1,149 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "oo[0]",
+					"strict" : false
+				},
+				{
+					"name" : "oo[1]",
+					"strict" : false
+				},
+				{
+					"name" : "oo[2]",
+					"strict" : false
+				},
+				{
+					"name" : "oo[3]",
+					"strict" : false
+				},
+				{
+					"name" : "oo[4]",
+					"strict" : false
+				},
+				{
+					"name" : "oo[5]",
+					"strict" : false
+				},
+				{
+					"name" : "oo[6]",
+					"strict" : false
+				},
+				{
+					"name" : "oo[7]",
+					"strict" : false
+				},
+				{
+					"name" : "alu_nzp[0]",
+					"strict" : false
+				},
+				{
+					"name" : "alu_nzp[1]",
+					"strict" : false
+				},
+				{
+					"name" : "alu_nzp[2]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "op2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sel[0]",
+					"strict" : false
+				},
+				{
+					"name" : "op1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "op2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "op1[7]",
+					"strict" : false
+				},
+				{
+					"name" : "op2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "op2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "op2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "op2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "op2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "op2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "op1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "op1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "op1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "op1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "op1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "op1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "sel[1]",
+					"strict" : false
+				},
+				{
+					"name" : "state[1]",
+					"strict" : false
+				},
+				{
+					"name" : "enable",
+					"strict" : false
+				},
+				{
+					"name" : "state[0]",
+					"strict" : false
+				},
+				{
+					"name" : "state[2]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

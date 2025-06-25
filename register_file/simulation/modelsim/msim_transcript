@@ -1,0 +1,69 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do rf_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/register_file/rf.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:18:48 on Jun 25,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/harsh/Desktop/Coding/quartus_arch_design/register_file/rf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rf
+# -- Compiling architecture arch of rf
+# End time: 23:18:48 on Jun 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/register_file/rf_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:18:49 on Jun 25,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/harsh/Desktop/Coding/quartus_arch_design/register_file/rf_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture struct of testbench
+# End time: 23:18:49 on Jun 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 23:18:49 on Jun 25,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testbench(struct)
+# Loading work.rf(arch)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 220 ns
+# ** Note: Test 1: Reset behavior passed
+#    Time: 20 ns  Iteration: 0  Instance: /testbench
+# ** Note: Test 2: BlockID write to register[13] passed
+#    Time: 80 ns  Iteration: 0  Instance: /testbench
+# ** Note: Test 3: ALU write to register[5] passed
+#    Time: 120 ns  Iteration: 0  Instance: /testbench
+# ** Note: Test 4: LSU write to register[6] passed
+#    Time: 160 ns  Iteration: 0  Instance: /testbench
+# ** Note: Test 5: Immediate write to register[7] passed
+#    Time: 200 ns  Iteration: 0  Instance: /testbench
+# ** Note: All tests completed
+#    Time: 220 ns  Iteration: 0  Instance: /testbench
+# End time: 23:31:37 on Jun 25,2025, Elapsed time: 0:12:48
+# Errors: 0, Warnings: 0
