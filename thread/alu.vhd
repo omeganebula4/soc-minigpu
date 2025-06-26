@@ -21,8 +21,8 @@ begin
 	begin
 		if rising_edge(clk) then
 			-- High-Z output if input is invalid.
-			oo <= (others => 'Z');
-			alu_nzp <= (others => 'Z');
+			-- oo <= (others => 'Z');
+			-- alu_nzp <= (others => 'Z');
 
 			if reset = '1' then
 				oo <= "00000000";

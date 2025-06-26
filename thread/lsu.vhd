@@ -26,56 +26,58 @@ begin
 
 	process(clk)
 	begin
+		if rising_edge(clk) then
 		
-		if reset = '1' then
-			lsu_state <= "00"; -- IDLE
-			lsu_out <= (others => '0');
-			mem_read_add <= (others => '0');
-			mem_write_add <= (others => '0');
-			mem_write_data <= (others => '0');
-			
-		elsif en = '1' then
-			if mem_read_en = '1' then
-				if lsu_state = "00" then
-					if state = "011" then
-						lsu_state <= "01"; -- REQUESTING
+			if reset = '1' then
+				lsu_state <= "00"; -- IDLE
+				lsu_out <= (others => '0');
+				mem_read_add <= (others => '0');
+				mem_write_add <= (others => '0');
+				mem_write_data <= (others => '0');
+				
+			elsif en = '1' then
+				if mem_read_en = '1' then
+					if lsu_state = "00" then
+						if state = "011" then
+							lsu_state <= "01"; -- REQUESTING
+						end if;
+					elsif lsu_state = "01" then
+						mem_read_add <= rs_out;
+						lsu_state <= "10"; -- WAITING
+					elsif lsu_state = "10" then
+						if mem_read_ready = '1' then
+							lsu_out <= mem_read_data;
+							lsu_state <= "11"; -- DONE
+						end if;
+					elsif lsu_state = "11" then
+						if state = "110" then
+							lsu_state <= "00"; -- IDLE
+						end if;
 					end if;
-				elsif lsu_state = "01" then
-					mem_read_add <= rs_out;
-					lsu_state <= "10"; -- WAITING
-				elsif lsu_state = "10" then
-					if mem_read_ready = '1' then
-						lsu_out <= mem_read_data;
-						lsu_state <= "11"; -- DONE
-					end if;
-				elsif lsu_state = "11" then
-					if state = "110" then
-						lsu_state <= "00"; -- IDLE
+				end if;
+				
+				if mem_write_en = '1' then
+					if lsu_state = "00" then
+						if state = "011" then
+							lsu_state <= "01"; -- REQUESTING
+						end if;
+					elsif lsu_state = "01" then
+						mem_write_add <= rs_out;
+						mem_write_data <= rt_out;
+						lsu_state <= "10"; -- WAITING
+					elsif lsu_state = "10" then
+						if mem_write_ready = '1' then
+							lsu_state <= "11"; -- DONE
+						end if;
+					elsif lsu_state = "11" then
+						if state = "110" then
+							lsu_state <= "00"; --IDLE
+						end if;
 					end if;
 				end if;
 			end if;
-			
-			if mem_write_en = '1' then
-				if lsu_state = "00" then
-					if state = "011" then
-						lsu_state <= "01"; -- REQUESTING
-					end if;
-				elsif lsu_state = "01" then
-					mem_write_add <= rs_out;
-					mem_write_data <= rt_out;
-					lsu_state <= "10"; -- WAITING
-				elsif lsu_state = "10" then
-					if mem_write_ready = '1' then
-						lsu_state <= "11"; -- DONE
-					end if;
-				elsif lsu_state = "11" then
-					if state = "110" then
-						lsu_state <= "00"; --IDLE
-					end if;
-				end if;
-			end if;
+		
 		end if;
-		
 	end process;
 
 end arch;

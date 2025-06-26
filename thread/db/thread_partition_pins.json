@@ -244,6 +244,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "nzp_write_en",
+					"strict" : false
+				},
+				{
 					"name" : "rs_address[1]",
 					"strict" : false
 				},
@@ -260,11 +264,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "mem_write_ready",
+					"name" : "mem_read_ready",
 					"strict" : false
 				},
 				{
-					"name" : "mem_read_ready",
+					"name" : "mem_write_ready",
 					"strict" : false
 				},
 				{
@@ -284,11 +288,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "reg_mux_in[1]",
+					"name" : "reg_mux_in[0]",
 					"strict" : false
 				},
 				{
-					"name" : "reg_mux_in[0]",
+					"name" : "reg_mux_in[1]",
 					"strict" : false
 				},
 				{
@@ -304,11 +308,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "reg_write_en",
+					"name" : "rd_address[2]",
 					"strict" : false
 				},
 				{
-					"name" : "rd_address[2]",
+					"name" : "reg_write_en",
 					"strict" : false
 				},
 				{
@@ -344,15 +348,15 @@
 					"strict" : false
 				},
 				{
+					"name" : "mem_read_data[0]",
+					"strict" : false
+				},
+				{
 					"name" : "alu_select[0]",
 					"strict" : false
 				},
 				{
 					"name" : "alu_select[1]",
-					"strict" : false
-				},
-				{
-					"name" : "mem_read_data[0]",
 					"strict" : false
 				},
 				{

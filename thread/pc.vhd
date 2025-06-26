@@ -30,7 +30,7 @@ begin
 					
 					if pc_out_mux = '1' then
 					
-						if nzp_instr = nzp_alu_out then
+						if nzp_instr = nzp_reg then
 							new_pc <= unsigned(immediate);
 						else
 							new_pc <= current_pc + 1;
