@@ -66,6 +66,6 @@ set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH alu_tb.vhd -sec
 set_global_assignment -name EDA_TEST_BENCH_NAME alu_tb.vhd -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME inst1 -section_id alu_tb.vhd
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME testbench -section_id alu_tb.vhd
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "300 ns" -section_id alu_tb.vhd
 set_global_assignment -name EDA_TEST_BENCH_FILE alu_tb.vhd -section_id alu_tb.vhd
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

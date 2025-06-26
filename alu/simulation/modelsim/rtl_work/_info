@@ -24,9 +24,9 @@ V`XfZSDW8bPaPl08Q2UUJ?2
 !s100 `B>1MKANah]d=czA1UA[E3
 Z7 OV;C;2020.1;71
 31
-Z8 !s110 1750144568
+Z8 !s110 1750915102
 !i10b 1
-Z9 !s108 1750144568.000000
+Z9 !s108 1750915101.000000
 Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/alu/alu.vhd|
 Z11 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/alu/alu.vhd|
 !i113 1
@@ -53,7 +53,7 @@ R11
 R12
 R13
 Etestbench
-Z14 w1750144245
+Z14 w1750915084
 R3
 R4
 !i122 1
@@ -68,8 +68,8 @@ R7
 31
 R8
 !i10b 1
-R9
-Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/alu/alu_tb.vhd|
+Z17 !s108 1750915102.000000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/alu/alu_tb.vhd|
 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/alu/alu_tb.vhd|
 !i113 1
 R12
@@ -80,16 +80,16 @@ R4
 DEx4 work 9 testbench 0 22 aiUN]kbZ@;aHXe43N@OOg3
 !i122 1
 l30
-L11 91
-VAk8UC346``?g[^ezO5Y[A3
-!s100 YVc8a@1D?4nVCjOg9Ck]80
+L11 89
+VjDLk9UZdK6NL4SB1_@<2a1
+!s100 3nl0KXINb@2L;M`92M_mX0
 R7
 31
 R8
 !i10b 1
-R9
 R17
-Z18 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/alu/alu_tb.vhd|
+R18
+Z19 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/alu/alu_tb.vhd|
 !i113 1
 R12
 R13

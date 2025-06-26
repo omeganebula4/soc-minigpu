@@ -42,8 +42,6 @@ architecture behav of testbench is
 	
 	test_proc: process
 	begin
-		core_state <= "000";
-		wait for 100 ns;
 		reset <= '1';
 		wait for 20 ns;
 		if (alu_nzp = "000" and alu_out = "00000000") then

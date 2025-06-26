@@ -74,92 +74,92 @@ begin
   end process;
 
   -- Stimulus process
-  stim_proc: process
-  begin
-    -- 1. Reset Test
-    reset <= '1'; wait for clk_period;
-	 
-	 -- Check reset behavior
-    if rs_data = ("00000000") and rt_data = ("00000000") then
-      report "Test 1: Reset behavior passed" severity note;
-    else
-      report "Test 1: Reset behavior failed" severity error;
-    end if;
-	 
-    reset <= '0'; wait for clk_period;
+	  stim_proc: process
+	  begin
+		 -- 1. Reset Test
+		 reset <= '1'; wait for clk_period;
+		 
+		 -- Check reset behavior
+		 if rs_data = ("00000000") and rt_data = ("00000000") then
+			report "Test 1: Reset behavior passed" severity note;
+		 else
+			report "Test 1: Reset behavior failed" severity error;
+		 end if;
+		 
+		 reset <= '0'; wait for clk_period;
 
 
-    -- 2. BlockID Write Test
-    enable <= '1';
-    reg_write_enable <= '1';
-	 core_state <= "110";
-    block_id <= "10101010";  -- Writing to register 13 internally
-    wait for clk_period;
+		 -- 2. BlockID Write Test
+		 enable <= '1';
+		 reg_write_enable <= '1';
+		 core_state <= "110";
+		 block_id <= "10101010";  -- Writing to register 13 internally
+		 wait for clk_period;
 
-    rs_address <= "1101";  -- 13
-    core_state <= "011";  -- ReadFromRF
-    wait for clk_period;
+		 rs_address <= "1101";  -- 13
+		 core_state <= "011";  -- ReadFromRF
+		 wait for clk_period;
 
-    if rs_data = "10101010" then
-      report "Test 2: BlockID write to register[13] passed" severity note;
-    else
-      report "Test 2: BlockID write failed" severity error;
-    end if;
+		 if rs_data = "10101010" then
+			report "Test 2: BlockID write to register[13] passed" severity note;
+		 else
+			report "Test 2: BlockID write failed" severity error;
+		 end if;
 
-    -- 3. ALU write test
-    core_state <= "110"; -- WriteToRF
-    rd_address <= "0101"; -- 5
-    alu_out <= "00001111";
-    reg_input_mux <= "00"; -- ALU path
-    wait for clk_period;
+		 -- 3. ALU write test
+		 core_state <= "110"; -- WriteToRF
+		 rd_address <= "0101"; -- 5
+		 alu_out <= "00001111";
+		 reg_input_mux <= "00"; -- ALU path
+		 wait for clk_period;
 
-    rs_address <= "0101";
-    core_state <= "011";
-    wait for clk_period;
+		 rs_address <= "0101";
+		 core_state <= "011";
+		 wait for clk_period;
 
-    if rs_data = "00001111" then
-      report "Test 3: ALU write to register[5] passed" severity note;
-    else
-      report "Test 3: ALU write failed" severity error;
-    end if;
+		 if rs_data = "00001111" then
+			report "Test 3: ALU write to register[5] passed" severity note;
+		 else
+			report "Test 3: ALU write failed" severity error;
+		 end if;
 
-    -- 4. LSU write test
-    core_state <= "110";
-    rd_address <= "0110";
-    lsu_out <= "11110000";
-    reg_input_mux <= "01"; -- LSU path
-    wait for clk_period;
+		 -- 4. LSU write test
+		 core_state <= "110";
+		 rd_address <= "0110";
+		 lsu_out <= "11110000";
+		 reg_input_mux <= "01"; -- LSU path
+		 wait for clk_period;
 
-    rs_address <= "0110";
-    core_state <= "011";
-    wait for clk_period;
+		 rs_address <= "0110";
+		 core_state <= "011";
+		 wait for clk_period;
 
-    if rs_data = "11110000" then
-      report "Test 4: LSU write to register[6] passed" severity note;
-    else
-      report "Test 4: LSU write failed" severity error;
-    end if;
+		 if rs_data = "11110000" then
+			report "Test 4: LSU write to register[6] passed" severity note;
+		 else
+			report "Test 4: LSU write failed" severity error;
+		 end if;
 
-    -- 5. Immediate write test
-    core_state <= "110";
-    rd_address <= "0111";
-    immediate <= "10100101";
-    reg_input_mux <= "10"; -- IMM path
-    wait for clk_period;
+		 -- 5. Immediate write test
+		 core_state <= "110";
+		 rd_address <= "0111";
+		 immediate <= "10100101";
+		 reg_input_mux <= "10"; -- IMM path
+		 wait for clk_period;
 
-    rs_address <= "0111";
-    core_state <= "011";
-    wait for clk_period;
+		 rs_address <= "0111";
+		 core_state <= "011";
+		 wait for clk_period;
 
-    if rs_data = "10100101" then
-      report "Test 5: Immediate write to register[7] passed" severity note;
-    else
-      report "Test 5: Immediate write failed" severity error;
-    end if;
+		 if rs_data = "10100101" then
+			report "Test 5: Immediate write to register[7] passed" severity note;
+		 else
+			report "Test 5: Immediate write failed" severity error;
+		 end if;
 
-    wait for 20 ns;
-    report "All tests completed" severity note;
-    wait;
-  end process;
+		 wait for 20 ns;
+		 report "All tests completed" severity note;
+		 wait;
+	  end process;
 
 end architecture;
