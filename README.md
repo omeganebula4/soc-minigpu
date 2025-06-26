@@ -232,4 +232,10 @@ Here is the waveform output and console output on running the simulation:
 The following is the RTL Netlist of the implemented Register File for verification.
 ![rf_rtl](./graphics/rf_rtl.png)
 
+Note that in the implementation of the register file, it is not required for `reg_write_enable` to be 1 for reading the register file.
+
 # Week 5
+Implemented a **thread** using the components made in Week 4 as well as new components, namely, the LSU and Program Counter. Assembled all components to form a thread.
+
+The RTL Netlist of the thread is as follows:
+![thread_rtl](./graphics/thread_rtl.png)
