@@ -239,3 +239,15 @@ Implemented a **thread** using the components made in Week 4 as well as new comp
 
 The RTL Netlist of the thread is as follows:
 ![thread_rtl](./graphics/thread_rtl.png)
+
+## The Program Counter (PC)
+It outputs the memory address of the next instruction to be executed, given the current address, depending on the condition `pc_out_mux = '1' and nzp_instr = nzp_reg` when core state is 101 and where `nzp_reg` is the register which stores the 3-bit value `nzp_alu_out` from the ALU and updates whenever the system is at core state 110.
+
+Following is the RTL Netlist of the Program Counter:
+![pc_rtl](./graphics/pc_rtl.png)
+
+## Load Store Unit (LSU)
+The LSU works as a finite state machine and it decides whether to load from or store into the memory based on several conditions. 
+
+Following is the RTL Netlist of the LSU:
+![lsu_rtl](./graphics/lsu_rtl.png)
