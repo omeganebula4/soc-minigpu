@@ -1,0 +1,189 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do core_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/types_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:59:39 on Jul 30,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/types_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package types_pkg
+# -- Compiling package body types_pkg
+# -- Loading package types_pkg
+# End time: 20:59:39 on Jul 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/alu.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:59:40 on Jul 30,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture arch of alu
+# End time: 20:59:40 on Jul 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/pc.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:59:40 on Jul 30,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/pc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pc
+# -- Compiling architecture arch of pc
+# End time: 20:59:40 on Jul 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/rf.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:59:40 on Jul 30,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/rf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rf
+# -- Compiling architecture arch of rf
+# End time: 20:59:40 on Jul 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/scheduler.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:59:40 on Jul 30,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/scheduler.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package types_pkg
+# -- Compiling entity scheduler
+# -- Compiling architecture arch of scheduler
+# End time: 20:59:40 on Jul 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/fetcher.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:59:40 on Jul 30,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/fetcher.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package types_pkg
+# -- Compiling entity fetcher
+# -- Compiling architecture arch of fetcher
+# End time: 20:59:40 on Jul 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/decoder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:59:40 on Jul 30,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/decoder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package types_pkg
+# -- Compiling entity decoder
+# -- Compiling architecture arch of decoder
+# End time: 20:59:40 on Jul 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/lsu.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:59:40 on Jul 30,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/lsu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package types_pkg
+# -- Compiling entity lsu
+# -- Compiling architecture arch of lsu
+# End time: 20:59:40 on Jul 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/thread.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:59:40 on Jul 30,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/thread.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package types_pkg
+# -- Compiling entity thread
+# -- Compiling architecture arch of thread
+# End time: 20:59:40 on Jul 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/core.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:59:40 on Jul 30,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/core.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package types_pkg
+# -- Compiling entity core
+# -- Compiling architecture arch of core
+# End time: 20:59:40 on Jul 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/core_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:59:40 on Jul 30,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/core_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package types_pkg
+# -- Compiling entity core_tb
+# -- Compiling architecture tb of core_tb
+# End time: 20:59:40 on Jul 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  core_tb
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" core_tb 
+# Start time: 20:59:40 on Jul 30,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.types_pkg(body)
+# Loading work.core_tb(tb)
+# Loading work.core(arch)
+# Loading work.scheduler(arch)
+# Loading work.fetcher(arch)
+# Loading work.decoder(arch)
+# Loading work.thread(arch)
+# Loading work.alu(arch)
+# Loading work.rf(arch)
+# Loading work.pc(arch)
+# Loading work.lsu(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /core_tb/uut/gen_threads(0)/thread_inst/load_store/lsu_state has no driver.
+# This port will contribute value (IDLE) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /core_tb/uut/gen_threads(1)/thread_inst/load_store/lsu_state has no driver.
+# This port will contribute value (IDLE) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /core_tb/uut/gen_threads(2)/thread_inst/load_store/lsu_state has no driver.
+# This port will contribute value (IDLE) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /core_tb/uut/gen_threads(3)/thread_inst/load_store/lsu_state has no driver.
+# This port will contribute value (IDLE) to the signal network.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1000 ns
+# End time: 21:00:49 on Jul 30,2025, Elapsed time: 0:01:09
+# Errors: 0, Warnings: 4

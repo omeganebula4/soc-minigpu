@@ -1,3 +1,15 @@
+
+
+package TypesPkg is
+    type statetype is (IDLE, REQUESTING, WAITING, DONE);
+end package;
+
+-- Make the package body (even if empty)
+package body TypesPkg is
+end package body;
+
+-- Use the package in your design
+use work.TypesPkg.all;
 library IEEE; use IEEE.STD_LOGIC_1164.all; use IEEE.numeric_std.all;
 
 entity lsu is
@@ -16,12 +28,12 @@ entity lsu is
 		mem_read_add : out std_logic_vector(7 downto 0);
 		mem_write_add : out std_logic_vector(7 downto 0);
 		mem_write_data : out std_logic_vector(7 downto 0);
-		lsu_out : out std_logic_vector(7 downto 0));
+		lsu_out : out std_logic_vector(7 downto 0);
+		lsu_state : out statetype);
 end;
 
 architecture arch of lsu is
-	-- type statetype is (IDLE, REQUESTING, WAITING, DONE);
-	signal lsu_state : std_logic_vector(1 downto 0);
+	signal lsu_currentstate, lsu_nextstate : statetype;
 begin
 
 	process(clk)
@@ -29,55 +41,58 @@ begin
 		if rising_edge(clk) then
 		
 			if reset = '1' then
-				lsu_state <= "00"; -- IDLE
-				lsu_out <= (others => '0');
-				mem_read_add <= (others => '0');
-				mem_write_add <= (others => '0');
-				mem_write_data <= (others => '0');
+				lsu_currentstate <= IDLE;
 				
 			elsif en = '1' then
-				if mem_read_en = '1' then
-					if lsu_state = "00" then
-						if state = "011" then
-							lsu_state <= "01"; -- REQUESTING
-						end if;
-					elsif lsu_state = "01" then
-						mem_read_add <= rs_out;
-						lsu_state <= "10"; -- WAITING
-					elsif lsu_state = "10" then
-						if mem_read_ready = '1' then
-							lsu_out <= mem_read_data;
-							lsu_state <= "11"; -- DONE
-						end if;
-					elsif lsu_state = "11" then
-						if state = "110" then
-							lsu_state <= "00"; -- IDLE
-						end if;
-					end if;
-				end if;
+				lsu_currentstate <= lsu_nextstate;
 				
-				if mem_write_en = '1' then
-					if lsu_state = "00" then
-						if state = "011" then
-							lsu_state <= "01"; -- REQUESTING
-						end if;
-					elsif lsu_state = "01" then
+				if lsu_currentstate = REQUESTING then
+					
+					if mem_read_en = '1' then
+						mem_read_add <= rs_out;
+					end if;
+					
+					if mem_write_en = '1' then
 						mem_write_add <= rs_out;
 						mem_write_data <= rt_out;
-						lsu_state <= "10"; -- WAITING
-					elsif lsu_state = "10" then
-						if mem_write_ready = '1' then
-							lsu_state <= "11"; -- DONE
-						end if;
-					elsif lsu_state = "11" then
-						if state = "110" then
-							lsu_state <= "00"; --IDLE
-						end if;
 					end if;
+					
+				elsif (mem_read_en='1' and mem_read_ready = '1' and lsu_currentstate=WAITING) then
+					lsu_out <= mem_read_data;
 				end if;
+				
 			end if;
-		
+			
 		end if;
 	end process;
-
+	
+	process(all)
+	begin
+	
+		lsu_nextstate <= lsu_currentstate; -- Hold previous value if state is not changed.
+		
+		case lsu_currentstate is
+			when IDLE=>
+				if state = "011" then
+					lsu_nextstate <= REQUESTING;
+				end if;
+				
+			when REQUESTING =>
+				lsu_nextstate <= WAITING;
+				
+			when WAITING =>
+				if mem_write_ready = '1' then
+					lsu_nextstate <= DONE;
+				end if;
+				
+			when DONE =>
+				if state = "110" then
+					lsu_nextstate <= IDLE;
+				end if;
+				
+			when others =>
+				null;
+		end case;
+	end process;
+					
 end arch;

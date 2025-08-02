@@ -1,0 +1,26 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/types_pkg.vhd}
+vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/alu.vhd}
+vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/pc.vhd}
+vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/rf.vhd}
+vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/scheduler.vhd}
+vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/fetcher.vhd}
+vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/decoder.vhd}
+vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/lsu.vhd}
+vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/thread.vhd}
+vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/core.vhd}
+
+vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/core_tb.vhd}
+
+vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  core_tb
+
+add wave *
+view structure
+view signals
+run 1000 ns

@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Sat Aug 02 14:58:50 2025
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : gpu
+Top-level Entity Name : gpu
+Family : MAX 10
+Total logic elements : 5,474
+    Total combinational functions : 4,841
+    Dedicated logic registers : 2,297
+Total registers : 2297
+Total pins : 183
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 8
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

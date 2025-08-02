@@ -24,9 +24,9 @@ VGo6B;Rb2Y>?L_aMKV]RZe2
 !s100 gXzz_ReaU^`5m1Godl=g82
 Z7 OV;C;2020.1;71
 31
-Z8 !s110 1750916407
+Z8 !s110 1754131384
 !i10b 1
-Z9 !s108 1750916407.000000
+Z9 !s108 1754131384.000000
 Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/register_file/rf.vhd|
 Z11 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/register_file/rf.vhd|
 !i113 1
@@ -67,10 +67,10 @@ V]kGdGjI7=0X]i4Ob>40W<0
 !s100 h`]lGXCg42E<3S3:oXW_N1
 R7
 31
-Z17 !s110 1750916408
+R8
 !i10b 1
 R9
-Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/register_file/rf_tb.vhd|
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/register_file/rf_tb.vhd|
 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/register_file/rf_tb.vhd|
 !i113 1
 R12
@@ -87,11 +87,11 @@ V?==7Z@IoRFDa8zj46XMSh0
 !s100 01l]^zNQ6[`4P:AeE^UPG1
 R7
 31
-R17
+R8
 !i10b 1
 R9
-R18
-Z19 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/register_file/rf_tb.vhd|
+R17
+Z18 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/register_file/rf_tb.vhd|
 !i113 1
 R12
 R13

@@ -1,0 +1,10 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,core:\cores_gen:1:core_instance|thread:\gen_threads:3:thread_inst|alu:alu0|lpm_mult:Mult0|mult_tds:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,core:\cores_gen:1:core_instance|thread:\gen_threads:2:thread_inst|alu:alu0|lpm_mult:Mult0|mult_tds:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,core:\cores_gen:0:core_instance|thread:\gen_threads:3:thread_inst|alu:alu0|lpm_mult:Mult0|mult_tds:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,core:\cores_gen:0:core_instance|thread:\gen_threads:1:thread_inst|alu:alu0|lpm_mult:Mult0|mult_tds:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,core:\cores_gen:0:core_instance|thread:\gen_threads:2:thread_inst|alu:alu0|lpm_mult:Mult0|mult_tds:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,core:\cores_gen:0:core_instance|thread:\gen_threads:0:thread_inst|alu:alu0|lpm_mult:Mult0|mult_tds:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,core:\cores_gen:1:core_instance|thread:\gen_threads:1:thread_inst|alu:alu0|lpm_mult:Mult0|mult_tds:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,core:\cores_gen:1:core_instance|thread:\gen_threads:0:thread_inst|alu:alu0|lpm_mult:Mult0|mult_tds:auto_generated|mac_out2,
+PORT_SWAPPING,PORT_SWAPPING_FINISHED,core:\cores_gen:1:core_instance|thread:\gen_threads:2:thread_inst|alu:alu0|lpm_mult:Mult0|mult_tds:auto_generated|mac_mult1,

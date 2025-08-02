@@ -1,0 +1,7 @@
+
+State Machine - |lsu|lsu_currentstate
+Name lsu_currentstate.DONE lsu_currentstate.WAITING lsu_currentstate.REQUESTING lsu_currentstate.IDLE 
+lsu_currentstate.IDLE 0 0 0 0 
+lsu_currentstate.REQUESTING 0 0 1 1 
+lsu_currentstate.WAITING 0 1 0 1 
+lsu_currentstate.DONE 1 0 0 1 

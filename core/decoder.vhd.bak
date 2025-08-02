@@ -1,0 +1,29 @@
+library IEEE; use IEEE.STD_LOGIC_1164.all; use IEEE.numeric_std.all;
+library work; use work.types_pkg.all;
+
+entity decoder is
+	port(clk : in std_logic;
+		reset : in std_logic;
+		state : in std_logic_vector(2 downto 0);
+		instruction : in std_logic_vector(15 downto 0);
+		
+		rs_address : out std_logic_vector(3 downto 0);
+		rt_address : out std_logic_vector(3 downto 0);
+		rd_address : out std_logic_vector(3 downto 0);
+		nzp_instr : out std_logic_vector(2 downto 0);
+		immediate : out std_logic_vector(7 downto 0);
+		mem_read_en : out std_logic;
+		mem_write_en : out std_logic;
+		reg_write_en : out std_logic;
+		nzp_write_en : out std_logic;
+		reg_input_mux : out std_logic_vector(1 downto 0);
+		alu_select : out std_logic_vector(1 downto 0);
+		pc_out_mux : out std_logic;
+		decoded_ret : out std_logic);
+end entity;
+
+architecture arch of decoder is
+
+begin
+
+end;

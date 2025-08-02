@@ -1,0 +1,106 @@
+
+State Machine - |gpu|core:\cores_gen:1:core_instance|thread:\gen_threads:3:thread_inst|lsu:load_store|lsu_currentstate
+Name lsu_currentstate.DONE lsu_currentstate.WAITING lsu_currentstate.REQUESTING lsu_currentstate.IDLE 
+lsu_currentstate.IDLE 0 0 0 0 
+lsu_currentstate.REQUESTING 0 0 1 1 
+lsu_currentstate.WAITING 0 1 0 1 
+lsu_currentstate.DONE 1 0 0 1 
+
+State Machine - |gpu|core:\cores_gen:1:core_instance|thread:\gen_threads:2:thread_inst|lsu:load_store|lsu_currentstate
+Name lsu_currentstate.DONE lsu_currentstate.WAITING lsu_currentstate.REQUESTING lsu_currentstate.IDLE 
+lsu_currentstate.IDLE 0 0 0 0 
+lsu_currentstate.REQUESTING 0 0 1 1 
+lsu_currentstate.WAITING 0 1 0 1 
+lsu_currentstate.DONE 1 0 0 1 
+
+State Machine - |gpu|core:\cores_gen:1:core_instance|thread:\gen_threads:1:thread_inst|lsu:load_store|lsu_currentstate
+Name lsu_currentstate.DONE lsu_currentstate.WAITING lsu_currentstate.REQUESTING lsu_currentstate.IDLE 
+lsu_currentstate.IDLE 0 0 0 0 
+lsu_currentstate.REQUESTING 0 0 1 1 
+lsu_currentstate.WAITING 0 1 0 1 
+lsu_currentstate.DONE 1 0 0 1 
+
+State Machine - |gpu|core:\cores_gen:1:core_instance|thread:\gen_threads:0:thread_inst|lsu:load_store|lsu_currentstate
+Name lsu_currentstate.DONE lsu_currentstate.WAITING lsu_currentstate.REQUESTING lsu_currentstate.IDLE 
+lsu_currentstate.IDLE 0 0 0 0 
+lsu_currentstate.REQUESTING 0 0 1 1 
+lsu_currentstate.WAITING 0 1 0 1 
+lsu_currentstate.DONE 1 0 0 1 
+
+State Machine - |gpu|core:\cores_gen:1:core_instance|fetcher:fetcher0|fetcher_currentstate
+Name fetcher_currentstate.FETCHED fetcher_currentstate.FETCHING fetcher_currentstate.IDLE 
+fetcher_currentstate.IDLE 0 0 0 
+fetcher_currentstate.FETCHING 0 1 1 
+fetcher_currentstate.FETCHED 1 0 1 
+
+State Machine - |gpu|core:\cores_gen:0:core_instance|thread:\gen_threads:3:thread_inst|lsu:load_store|lsu_currentstate
+Name lsu_currentstate.DONE lsu_currentstate.WAITING lsu_currentstate.REQUESTING lsu_currentstate.IDLE 
+lsu_currentstate.IDLE 0 0 0 0 
+lsu_currentstate.REQUESTING 0 0 1 1 
+lsu_currentstate.WAITING 0 1 0 1 
+lsu_currentstate.DONE 1 0 0 1 
+
+State Machine - |gpu|core:\cores_gen:0:core_instance|thread:\gen_threads:2:thread_inst|lsu:load_store|lsu_currentstate
+Name lsu_currentstate.DONE lsu_currentstate.WAITING lsu_currentstate.REQUESTING lsu_currentstate.IDLE 
+lsu_currentstate.IDLE 0 0 0 0 
+lsu_currentstate.REQUESTING 0 0 1 1 
+lsu_currentstate.WAITING 0 1 0 1 
+lsu_currentstate.DONE 1 0 0 1 
+
+State Machine - |gpu|core:\cores_gen:0:core_instance|thread:\gen_threads:1:thread_inst|lsu:load_store|lsu_currentstate
+Name lsu_currentstate.DONE lsu_currentstate.WAITING lsu_currentstate.REQUESTING lsu_currentstate.IDLE 
+lsu_currentstate.IDLE 0 0 0 0 
+lsu_currentstate.REQUESTING 0 0 1 1 
+lsu_currentstate.WAITING 0 1 0 1 
+lsu_currentstate.DONE 1 0 0 1 
+
+State Machine - |gpu|core:\cores_gen:0:core_instance|thread:\gen_threads:0:thread_inst|lsu:load_store|lsu_currentstate
+Name lsu_currentstate.DONE lsu_currentstate.WAITING lsu_currentstate.REQUESTING lsu_currentstate.IDLE 
+lsu_currentstate.IDLE 0 0 0 0 
+lsu_currentstate.REQUESTING 0 0 1 1 
+lsu_currentstate.WAITING 0 1 0 1 
+lsu_currentstate.DONE 1 0 0 1 
+
+State Machine - |gpu|core:\cores_gen:0:core_instance|fetcher:fetcher0|fetcher_currentstate
+Name fetcher_currentstate.FETCHED fetcher_currentstate.FETCHING fetcher_currentstate.IDLE 
+fetcher_currentstate.IDLE 0 0 0 
+fetcher_currentstate.FETCHING 0 1 1 
+fetcher_currentstate.FETCHED 1 0 1 
+
+State Machine - |gpu|mem_controller_instr:instruction_memory_controller|controller_state[0]
+Name controller_state[0].RW controller_state[0].RR controller_state[0].IDLE 
+controller_state[0].IDLE 0 0 0 
+controller_state[0].RR 0 1 1 
+controller_state[0].RW 1 0 1 
+
+State Machine - |gpu|mem_controller_mem:data_memory_controller|controller_state[0]
+Name controller_state[0].WW controller_state[0].WR controller_state[0].RW controller_state[0].RR controller_state[0].IDLE 
+controller_state[0].IDLE 0 0 0 0 0 
+controller_state[0].RR 0 0 0 1 1 
+controller_state[0].RW 0 0 1 0 1 
+controller_state[0].WR 0 1 0 0 1 
+controller_state[0].WW 1 0 0 0 1 
+
+State Machine - |gpu|mem_controller_mem:data_memory_controller|controller_state[1]
+Name controller_state[1].WW controller_state[1].WR controller_state[1].RW controller_state[1].RR controller_state[1].IDLE 
+controller_state[1].IDLE 0 0 0 0 0 
+controller_state[1].RR 0 0 0 1 1 
+controller_state[1].RW 0 0 1 0 1 
+controller_state[1].WR 0 1 0 0 1 
+controller_state[1].WW 1 0 0 0 1 
+
+State Machine - |gpu|mem_controller_mem:data_memory_controller|controller_state[2]
+Name controller_state[2].WW controller_state[2].WR controller_state[2].RW controller_state[2].RR controller_state[2].IDLE 
+controller_state[2].IDLE 0 0 0 0 0 
+controller_state[2].RR 0 0 0 1 1 
+controller_state[2].RW 0 0 1 0 1 
+controller_state[2].WR 0 1 0 0 1 
+controller_state[2].WW 1 0 0 0 1 
+
+State Machine - |gpu|mem_controller_mem:data_memory_controller|controller_state[3]
+Name controller_state[3].WW controller_state[3].WR controller_state[3].RW controller_state[3].RR controller_state[3].IDLE 
+controller_state[3].IDLE 0 0 0 0 0 
+controller_state[3].RR 0 0 0 1 1 
+controller_state[3].RW 0 0 1 0 1 
+controller_state[3].WR 0 1 0 0 1 
+controller_state[3].WW 1 0 0 0 1 

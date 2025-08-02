@@ -4,38 +4,6 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "new_pc[0]",
-					"strict" : false
-				},
-				{
-					"name" : "new_pc[1]",
-					"strict" : false
-				},
-				{
-					"name" : "new_pc[2]",
-					"strict" : false
-				},
-				{
-					"name" : "new_pc[3]",
-					"strict" : false
-				},
-				{
-					"name" : "new_pc[4]",
-					"strict" : false
-				},
-				{
-					"name" : "new_pc[5]",
-					"strict" : false
-				},
-				{
-					"name" : "new_pc[6]",
-					"strict" : false
-				},
-				{
-					"name" : "new_pc[7]",
-					"strict" : false
-				},
-				{
 					"name" : "mem_read_add[0]",
 					"strict" : false
 				},
@@ -132,107 +100,43 @@
 					"strict" : false
 				},
 				{
+					"name" : "lsu_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "lsu_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "lsu_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "lsu_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "lsu_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "lsu_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "lsu_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "lsu_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "rs_out[0]",
+					"strict" : false
+				},
+				{
 					"name" : "clk",
-					"strict" : false
-				},
-				{
-					"name" : "immediate[0]",
-					"strict" : false
-				},
-				{
-					"name" : "current_pc[0]",
-					"strict" : false
-				},
-				{
-					"name" : "nzp_instr[0]",
-					"strict" : false
-				},
-				{
-					"name" : "nzp_instr[1]",
-					"strict" : false
-				},
-				{
-					"name" : "pc_out_mux",
-					"strict" : false
-				},
-				{
-					"name" : "nzp_instr[2]",
-					"strict" : false
-				},
-				{
-					"name" : "reset",
-					"strict" : false
-				},
-				{
-					"name" : "state[1]",
-					"strict" : false
-				},
-				{
-					"name" : "en",
-					"strict" : false
-				},
-				{
-					"name" : "state[0]",
-					"strict" : false
-				},
-				{
-					"name" : "state[2]",
-					"strict" : false
-				},
-				{
-					"name" : "immediate[1]",
-					"strict" : false
-				},
-				{
-					"name" : "current_pc[1]",
-					"strict" : false
-				},
-				{
-					"name" : "immediate[2]",
-					"strict" : false
-				},
-				{
-					"name" : "current_pc[2]",
-					"strict" : false
-				},
-				{
-					"name" : "immediate[3]",
-					"strict" : false
-				},
-				{
-					"name" : "current_pc[3]",
-					"strict" : false
-				},
-				{
-					"name" : "immediate[4]",
-					"strict" : false
-				},
-				{
-					"name" : "current_pc[4]",
-					"strict" : false
-				},
-				{
-					"name" : "immediate[5]",
-					"strict" : false
-				},
-				{
-					"name" : "current_pc[5]",
-					"strict" : false
-				},
-				{
-					"name" : "immediate[6]",
-					"strict" : false
-				},
-				{
-					"name" : "current_pc[6]",
-					"strict" : false
-				},
-				{
-					"name" : "immediate[7]",
-					"strict" : false
-				},
-				{
-					"name" : "current_pc[7]",
 					"strict" : false
 				},
 				{
@@ -240,111 +144,75 @@
 					"strict" : false
 				},
 				{
+					"name" : "en",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "rs_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "rs_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "rs_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rs_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "rs_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "rs_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "rs_out[7]",
+					"strict" : false
+				},
+				{
 					"name" : "mem_write_en",
 					"strict" : false
 				},
 				{
-					"name" : "nzp_write_en",
+					"name" : "rt_out[0]",
 					"strict" : false
 				},
 				{
-					"name" : "rs_address[1]",
+					"name" : "rt_out[1]",
 					"strict" : false
 				},
 				{
-					"name" : "rs_address[0]",
+					"name" : "rt_out[2]",
 					"strict" : false
 				},
 				{
-					"name" : "rs_address[3]",
+					"name" : "rt_out[3]",
 					"strict" : false
 				},
 				{
-					"name" : "rs_address[2]",
+					"name" : "rt_out[4]",
 					"strict" : false
 				},
 				{
-					"name" : "mem_read_ready",
+					"name" : "rt_out[5]",
 					"strict" : false
 				},
 				{
-					"name" : "mem_write_ready",
+					"name" : "rt_out[6]",
 					"strict" : false
 				},
 				{
-					"name" : "rt_address[1]",
-					"strict" : false
-				},
-				{
-					"name" : "rt_address[0]",
-					"strict" : false
-				},
-				{
-					"name" : "rt_address[3]",
-					"strict" : false
-				},
-				{
-					"name" : "rt_address[2]",
-					"strict" : false
-				},
-				{
-					"name" : "reg_mux_in[0]",
-					"strict" : false
-				},
-				{
-					"name" : "reg_mux_in[1]",
-					"strict" : false
-				},
-				{
-					"name" : "rd_address[1]",
-					"strict" : false
-				},
-				{
-					"name" : "rd_address[0]",
-					"strict" : false
-				},
-				{
-					"name" : "rd_address[3]",
-					"strict" : false
-				},
-				{
-					"name" : "rd_address[2]",
-					"strict" : false
-				},
-				{
-					"name" : "reg_write_en",
-					"strict" : false
-				},
-				{
-					"name" : "reg_block_id[0]",
-					"strict" : false
-				},
-				{
-					"name" : "reg_block_id[1]",
-					"strict" : false
-				},
-				{
-					"name" : "reg_block_id[2]",
-					"strict" : false
-				},
-				{
-					"name" : "reg_block_id[3]",
-					"strict" : false
-				},
-				{
-					"name" : "reg_block_id[4]",
-					"strict" : false
-				},
-				{
-					"name" : "reg_block_id[5]",
-					"strict" : false
-				},
-				{
-					"name" : "reg_block_id[6]",
-					"strict" : false
-				},
-				{
-					"name" : "reg_block_id[7]",
+					"name" : "rt_out[7]",
 					"strict" : false
 				},
 				{
@@ -352,11 +220,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "alu_select[0]",
-					"strict" : false
-				},
-				{
-					"name" : "alu_select[1]",
+					"name" : "mem_read_ready",
 					"strict" : false
 				},
 				{
@@ -385,6 +249,22 @@
 				},
 				{
 					"name" : "mem_read_data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "state[0]",
+					"strict" : false
+				},
+				{
+					"name" : "state[2]",
+					"strict" : false
+				},
+				{
+					"name" : "state[1]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_write_ready",
 					"strict" : false
 				}
 			]

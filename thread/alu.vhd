@@ -20,29 +20,24 @@ begin
 		variable prod : signed(15 downto 0);
 	begin
 		if rising_edge(clk) then
-			-- High-Z output if input is invalid.
-			-- oo <= (others => 'Z');
-			-- alu_nzp <= (others => 'Z');
 
 			if reset = '1' then
 				oo <= "00000000";
 				alu_nzp <= "000";
+				
 			elsif enable = '1' then
 				if state = "101" then
 					in1 := signed(op1);
 					in2 := signed(op2);
 					diff := in2 - in1;
 					
-					case diff is
-						when "00000000" =>
-							alu_nzp <= "010"; -- Zero
-						when others =>
-							if diff(7) = '0' then
-								 alu_nzp <= "001"; -- Positive
-							else
-								 alu_nzp <= "100"; -- Negative
-							end if;
-					end case;
+					if diff = "00000000" then
+						alu_nzp <= "010";
+					elsif diff(7) = '0' then
+						alu_nzp <= "001";
+					else
+						alu_nzp <= "100";
+					end if;
 					
 					case sel is
 						when "00" =>
@@ -55,7 +50,7 @@ begin
 						when "11" =>
 							res := in1 / in2;
 						when others =>
-							res := (others => 'U');
+							res := (others => 'X');
 					end case;
 					
 					oo <= std_logic_vector(res);

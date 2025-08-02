@@ -1,0 +1,19 @@
+library IEEE; use IEEE.STD_LOGIC_1164.all; use IEEE.numeric_std.all;
+library work; use work.types_pkg.all;
+
+entity scheduler is
+	port(clk : in std_logic;
+		reset : in std_logic;
+		start : in std_logic;
+		mem_read_en : in std_logic;
+		mem_write_en : in std_logic;
+		decoded_ret : in std_logic;
+		fetcher_state : in std_logic_vector(2 downto 0);
+		lsu_state : in );
+end;
+
+architecture arch of scheduler is
+	type statetype is (IDLE, FETCH, DECODE, REQUEST, WAITING, EXECUTE, UPDATE, DONE);
+begin
+
+end arch;

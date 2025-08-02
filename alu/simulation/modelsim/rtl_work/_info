@@ -24,9 +24,9 @@ V`XfZSDW8bPaPl08Q2UUJ?2
 !s100 `B>1MKANah]d=czA1UA[E3
 Z7 OV;C;2020.1;71
 31
-Z8 !s110 1750915102
+Z8 !s110 1754131193
 !i10b 1
-Z9 !s108 1750915101.000000
+Z9 !s108 1754131193.000000
 Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/alu/alu.vhd|
 Z11 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/alu/alu.vhd|
 !i113 1
@@ -68,8 +68,8 @@ R7
 31
 R8
 !i10b 1
-Z17 !s108 1750915102.000000
-Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/alu/alu_tb.vhd|
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/alu/alu_tb.vhd|
 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/alu/alu_tb.vhd|
 !i113 1
 R12
@@ -87,9 +87,9 @@ R7
 31
 R8
 !i10b 1
+R9
 R17
-R18
-Z19 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/alu/alu_tb.vhd|
+Z18 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/alu/alu_tb.vhd|
 !i113 1
 R12
 R13

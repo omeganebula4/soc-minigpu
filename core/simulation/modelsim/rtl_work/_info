@@ -1,0 +1,496 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/harsh/Desktop/Coding/quartus_arch_design/core/simulation/modelsim
+Ealu
+Z1 w1752587380
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z5 8C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/alu.vhd
+Z6 FC:/Users/harsh/Desktop/Coding/quartus_arch_design/core/alu.vhd
+l0
+L3 1
+VaA7GVC0<7zbFKfiL:bo1D1
+!s100 `B>1MKANah]d=czA1UA[E3
+Z7 OV;C;2020.1;71
+33
+Z8 !s110 1753889380
+!i10b 1
+Z9 !s108 1753889380.000000
+Z10 !s90 -reportprogress|300|-2008|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/alu.vhd|
+Z11 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/alu.vhd|
+!i113 1
+Z12 o-2008 -work work
+Z13 tExplicit 1 CvgOpt 0
+Aarch
+R2
+R3
+R4
+DEx4 work 3 alu 0 22 aA7GVC0<7zbFKfiL:bo1D1
+!i122 1
+l16
+L15 48
+VRU<G4ESRTZUd>R;8RlR^a3
+!s100 MPToP<Mg:BhM4`F188o1S3
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ecore
+Z14 w1753883071
+Z15 DPx4 work 9 types_pkg 0 22 W6k^NDK4LG:UUdM[zCoZR2
+R2
+R3
+R4
+!i122 9
+R0
+Z16 8C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/core.vhd
+Z17 FC:/Users/harsh/Desktop/Coding/quartus_arch_design/core/core.vhd
+l0
+L4 1
+VUEYX[WGhBC:^KYE0KB@5^2
+!s100 FiLEROCF2SO]ZYDnn@NG>1
+R7
+33
+R8
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-2008|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/core.vhd|
+Z19 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/core.vhd|
+!i113 1
+R12
+R13
+Aarch
+R15
+R2
+R3
+R4
+DEx4 work 4 core 0 22 UEYX[WGhBC:^KYE0KB@5^2
+!i122 9
+l128
+L31 141
+V43<1?2M8`haHJkaUNCWD?2
+!s100 MeT0@W5<>aN9^o@[Eag=01
+R7
+33
+R8
+!i10b 1
+R9
+R18
+R19
+!i113 1
+R12
+R13
+Ecore_tb
+Z20 w1753889154
+R15
+R2
+R3
+R4
+!i122 10
+R0
+Z21 8C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/core_tb.vhd
+Z22 FC:/Users/harsh/Desktop/Coding/quartus_arch_design/core/core_tb.vhd
+l0
+L7 1
+VL9dbX`PH?]dl]P6K>YnIe2
+!s100 b:PgFPnJOhcFoIM8Kb=5M0
+R7
+33
+R8
+!i10b 1
+R9
+Z23 !s90 -reportprogress|300|-2008|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/core_tb.vhd|
+!s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/core_tb.vhd|
+!i113 1
+R12
+R13
+Atb
+R15
+R2
+R3
+R4
+DEx4 work 7 core_tb 0 22 L9dbX`PH?]dl]P6K>YnIe2
+!i122 10
+l80
+L10 175
+VRb7<n;`V3<Y^P`B<HiAdA1
+!s100 Tae53V9G9OiNdWcR6;bPQ0
+R7
+33
+R8
+!i10b 1
+R9
+R23
+Z24 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/core_tb.vhd|
+!i113 1
+R12
+R13
+Edecoder
+Z25 w1753110882
+R15
+R2
+R3
+R4
+!i122 6
+R0
+Z26 8C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/decoder.vhd
+Z27 FC:/Users/harsh/Desktop/Coding/quartus_arch_design/core/decoder.vhd
+l0
+L4 1
+VoDHF4e[;LL5JQXlz6JzNm3
+!s100 `Z:ID89T;ZD;bVDN3go331
+R7
+33
+R8
+!i10b 1
+R9
+Z28 !s90 -reportprogress|300|-2008|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/decoder.vhd|
+Z29 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/decoder.vhd|
+!i113 1
+R12
+R13
+Aarch
+R15
+R2
+R3
+R4
+DEx4 work 7 decoder 0 22 oDHF4e[;LL5JQXlz6JzNm3
+!i122 6
+l27
+L25 80
+VOiI=[TEFDzSDFPNJ<]A1b3
+!s100 8OO:zE24lg<afMJ5DI@OT3
+R7
+33
+R8
+!i10b 1
+R9
+R28
+R29
+!i113 1
+R12
+R13
+Efetcher
+Z30 w1753462748
+R15
+R2
+R3
+R4
+!i122 5
+R0
+Z31 8C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/fetcher.vhd
+Z32 FC:/Users/harsh/Desktop/Coding/quartus_arch_design/core/fetcher.vhd
+l0
+L4 1
+Vb;6ScQLX<WH4Rl=b<mPSj0
+!s100 nk4hn]FdK[OmcH<jUIC<J3
+R7
+33
+R8
+!i10b 1
+R9
+Z33 !s90 -reportprogress|300|-2008|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/fetcher.vhd|
+Z34 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/fetcher.vhd|
+!i113 1
+R12
+R13
+Aarch
+R15
+R2
+R3
+R4
+DEx4 work 7 fetcher 0 22 b;6ScQLX<WH4Rl=b<mPSj0
+!i122 5
+l20
+L18 57
+VGa;j3>GKAZ9G>AON7J7I31
+!s100 oNVmW>Qzzm8?7_]HASNJ<0
+R7
+33
+R8
+!i10b 1
+R9
+R33
+R34
+!i113 1
+R12
+R13
+Elsu
+Z35 w1753804737
+R15
+R2
+R3
+R4
+!i122 7
+R0
+Z36 8C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/lsu.vhd
+Z37 FC:/Users/harsh/Desktop/Coding/quartus_arch_design/core/lsu.vhd
+l0
+L4 1
+VbimBY7=^CD6BjOL5X?fkk0
+!s100 7a1TgfA38OAKaY9kkI8_=2
+R7
+33
+R8
+!i10b 1
+R9
+Z38 !s90 -reportprogress|300|-2008|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/lsu.vhd|
+Z39 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/lsu.vhd|
+!i113 1
+R12
+R13
+Aarch
+R15
+R2
+R3
+R4
+DEx4 work 3 lsu 0 22 bimBY7=^CD6BjOL5X?fkk0
+!i122 7
+l26
+L24 64
+VdST21;iK9ES>adSTUV@XN1
+!s100 mennmDRXG2A[P^QFN8HET3
+R7
+33
+R8
+!i10b 1
+R9
+R38
+R39
+!i113 1
+R12
+R13
+Epc
+Z40 w1753812186
+R2
+R3
+R4
+!i122 2
+R0
+Z41 8C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/pc.vhd
+Z42 FC:/Users/harsh/Desktop/Coding/quartus_arch_design/core/pc.vhd
+l0
+L3 1
+VUOg^QaUAAac@l^1WlA@Y61
+!s100 SVHT3fT2mfQ2<=MO:82>g3
+R7
+33
+R8
+!i10b 1
+R9
+Z43 !s90 -reportprogress|300|-2008|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/pc.vhd|
+Z44 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/pc.vhd|
+!i113 1
+R12
+R13
+Aarch
+R2
+R3
+R4
+DEx4 work 2 pc 0 22 UOg^QaUAAac@l^1WlA@Y61
+!i122 2
+l19
+L17 35
+VzY2AHMi0gzg3gIoo1Wac91
+!s100 h_A2S]Z9bVaY:N=VBhU0L0
+R7
+33
+R8
+!i10b 1
+R9
+R43
+R44
+!i113 1
+R12
+R13
+Erf
+Z45 w1752588540
+R2
+R3
+R4
+!i122 3
+R0
+Z46 8C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/rf.vhd
+Z47 FC:/Users/harsh/Desktop/Coding/quartus_arch_design/core/rf.vhd
+l0
+L3 1
+V_[1A3=^J`ZD<B6@K5cMO53
+!s100 gXzz_ReaU^`5m1Godl=g82
+R7
+33
+R8
+!i10b 1
+R9
+Z48 !s90 -reportprogress|300|-2008|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/rf.vhd|
+Z49 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/rf.vhd|
+!i113 1
+R12
+R13
+Aarch
+R2
+R3
+R4
+DEx4 work 2 rf 0 22 _[1A3=^J`ZD<B6@K5cMO53
+!i122 3
+l24
+L21 49
+VMHiMCDZ<^S_oY6VOYgl5S3
+!s100 ?QjSJ7:]LFbGV:4ib8>VW0
+R7
+33
+R8
+!i10b 1
+R9
+R48
+R49
+!i113 1
+R12
+R13
+Escheduler
+Z50 w1753463679
+R15
+R2
+R3
+R4
+!i122 4
+R0
+Z51 8C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/scheduler.vhd
+Z52 FC:/Users/harsh/Desktop/Coding/quartus_arch_design/core/scheduler.vhd
+l0
+L4 1
+VDIK0CX:zim5YLdcT9OE3h0
+!s100 9g:XD]Fc@S4AWG>JHH=d=2
+R7
+33
+R8
+!i10b 1
+R9
+Z53 !s90 -reportprogress|300|-2008|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/scheduler.vhd|
+Z54 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/scheduler.vhd|
+!i113 1
+R12
+R13
+Aarch
+R15
+R2
+R3
+R4
+DEx4 work 9 scheduler 0 22 DIK0CX:zim5YLdcT9OE3h0
+!i122 4
+l23
+L20 80
+VPCTz>e2oILTTe?A0Jf32O3
+!s100 GV4[c;X:0Cf]7agA9Eh0M0
+R7
+33
+R8
+!i10b 1
+R9
+R53
+R54
+!i113 1
+R12
+R13
+Ethread
+Z55 w1753812059
+R15
+R2
+R3
+R4
+!i122 8
+R0
+Z56 8C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/thread.vhd
+Z57 FC:/Users/harsh/Desktop/Coding/quartus_arch_design/core/thread.vhd
+l0
+L4 1
+VfU<JaO@If0eNzJcG6HLPO0
+!s100 hCYaG`mTW?Qf^Lbl<ikLV1
+R7
+33
+R8
+!i10b 1
+R9
+Z58 !s90 -reportprogress|300|-2008|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/thread.vhd|
+Z59 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/thread.vhd|
+!i113 1
+R12
+R13
+Aarch
+R15
+R2
+R3
+R4
+DEx4 work 6 thread 0 22 fU<JaO@If0eNzJcG6HLPO0
+!i122 8
+l104
+L38 72
+V_`Y>;l=lHlPAKNGT2RW2:0
+!s100 S<]6n@k9=iMFjW8_k3fCB3
+R7
+33
+R8
+!i10b 1
+R9
+R58
+R59
+!i113 1
+R12
+R13
+Ptypes_pkg
+R3
+R4
+!i122 0
+Z60 w1753882261
+R0
+Z61 8C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/types_pkg.vhd
+Z62 FC:/Users/harsh/Desktop/Coding/quartus_arch_design/core/types_pkg.vhd
+l0
+L4 1
+VW6k^NDK4LG:UUdM[zCoZR2
+!s100 <7X_8ijF6mF4I0XXcM2cT0
+R7
+33
+Z63 !s110 1753889379
+!i10b 1
+Z64 !s108 1753889379.000000
+Z65 !s90 -reportprogress|300|-2008|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/types_pkg.vhd|
+Z66 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/core/types_pkg.vhd|
+!i113 1
+R12
+R13
+Bbody
+R15
+R3
+R4
+!i122 0
+l0
+L15 1
+VhN[oRXAU<k4iNnSE5`eZh0
+!s100 aBnZIUd]:M@[@SIlT^3ZC3
+R7
+33
+R63
+!i10b 1
+R64
+R65
+R66
+!i113 1
+R12
+R13

@@ -27,9 +27,7 @@ begin
 	begin
 
 		if rising_edge(clk) then
-			-- rs_data <= (others => 'Z');
-			-- rt_data <= (others => 'Z');
-			
+		
 			if reset='1' then	
 				for i in 0 to 12 loop
 					reg_file(i) <= (others => '0');
@@ -43,10 +41,11 @@ begin
 			
 			elsif en='1' then
 			
-				if state = "011" then
+				if state = "011" then -- READ
 					rs_data <= reg_file(to_integer(unsigned(rs_address)));
 					rt_data <= reg_file(to_integer(unsigned(rt_address)));
-				elsif write_en='1' and state = "110" then
+					
+				elsif write_en='1' and state = "110" then -- WRITE
 					reg_file(13) <= block_id;
 					write_address := to_integer(unsigned(rd_address));
 					if write_address < 13 then

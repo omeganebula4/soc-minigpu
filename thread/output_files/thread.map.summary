@@ -1,16 +1,16 @@
-Analysis & Synthesis Status : Successful - Thu Jun 26 19:03:02 2025
+Analysis & Synthesis Status : Successful - Tue Jul 29 00:45:38 2025
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : thread
-Top-level Entity Name : thread
+Top-level Entity Name : lsu
 Family : MAX 10
-Total logic elements : 515
-    Total combinational functions : 403
-    Dedicated logic registers : 184
-Total registers : 184
-Total pins : 96
+Total logic elements : 44
+    Total combinational functions : 12
+    Dedicated logic registers : 36
+Total registers : 36
+Total pins : 70
 Total virtual pins : 0
 Total memory bits : 0
-Embedded Multiplier 9-bit elements : 1
+Embedded Multiplier 9-bit elements : 0
 Total PLLs : 0
 UFM blocks : 0
 ADC blocks : 0

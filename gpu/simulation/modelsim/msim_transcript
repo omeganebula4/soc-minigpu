@@ -1,0 +1,264 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do gpu_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/alu.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:11:44 on Aug 02,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture arch of alu
+# End time: 15:11:44 on Aug 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/pc.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:11:44 on Aug 02,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/pc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pc
+# -- Compiling architecture arch of pc
+# End time: 15:11:45 on Aug 02,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/types_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:11:45 on Aug 02,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/types_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package types_pkg
+# -- Compiling package body types_pkg
+# -- Loading package types_pkg
+# End time: 15:11:45 on Aug 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/core.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:11:45 on Aug 02,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/core.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package types_pkg
+# -- Compiling entity core
+# -- Compiling architecture arch of core
+# End time: 15:11:45 on Aug 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/dcr.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:11:45 on Aug 02,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/dcr.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package types_pkg
+# -- Compiling entity dcr
+# -- Compiling architecture arch of dcr
+# End time: 15:11:45 on Aug 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/decoder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:11:45 on Aug 02,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/decoder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package types_pkg
+# -- Compiling entity decoder
+# -- Compiling architecture arch of decoder
+# End time: 15:11:45 on Aug 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/dispatcher.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:11:45 on Aug 02,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/dispatcher.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package types_pkg
+# -- Compiling entity dispatcher
+# -- Compiling architecture arch of dispatcher
+# End time: 15:11:45 on Aug 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/fetcher.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:11:45 on Aug 02,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/fetcher.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package types_pkg
+# -- Compiling entity fetcher
+# -- Compiling architecture arch of fetcher
+# End time: 15:11:45 on Aug 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/lsu.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:11:45 on Aug 02,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/lsu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package types_pkg
+# -- Compiling entity lsu
+# -- Compiling architecture arch of lsu
+# End time: 15:11:45 on Aug 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/rf.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:11:45 on Aug 02,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/rf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package types_pkg
+# -- Compiling entity rf
+# -- Compiling architecture arch of rf
+# End time: 15:11:45 on Aug 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/scheduler.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:11:45 on Aug 02,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/scheduler.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package types_pkg
+# -- Compiling entity scheduler
+# -- Compiling architecture arch of scheduler
+# End time: 15:11:45 on Aug 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/thread.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:11:46 on Aug 02,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/thread.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package types_pkg
+# -- Compiling entity thread
+# -- Compiling architecture arch of thread
+# End time: 15:11:46 on Aug 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/mem_controller_mem.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:11:46 on Aug 02,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/mem_controller_mem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package types_pkg
+# -- Compiling entity mem_controller_mem
+# -- Compiling architecture arch of mem_controller_mem
+# End time: 15:11:46 on Aug 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/mem_controller_instr.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:11:46 on Aug 02,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/mem_controller_instr.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package types_pkg
+# -- Compiling entity mem_controller_instr
+# -- Compiling architecture arch of mem_controller_instr
+# End time: 15:11:46 on Aug 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/gpu.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:11:46 on Aug 02,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/gpu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package types_pkg
+# -- Compiling entity gpu
+# -- Compiling architecture arch of gpu
+# End time: 15:11:46 on Aug 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -2008 -work work {C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/gpu_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:11:46 on Aug 02,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/gpu_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package types_pkg
+# -- Compiling entity gpu_tb
+# -- Compiling architecture tb of gpu_tb
+# End time: 15:11:46 on Aug 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  gpu_tb
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" gpu_tb 
+# Start time: 15:11:46 on Aug 02,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.types_pkg(body)
+# Loading work.gpu_tb(tb)
+# Loading work.gpu(arch)
+# Loading work.dcr(arch)
+# Loading work.dispatcher(arch)
+# Loading work.mem_controller_mem(arch)
+# Loading work.mem_controller_instr(arch)
+# Loading work.core(arch)
+# Loading work.scheduler(arch)
+# Loading work.fetcher(arch)
+# Loading work.decoder(arch)
+# Loading work.thread(arch)
+# Loading work.alu(arch)
+# Loading work.rf(arch)
+# Loading work.pc(arch)
+# Loading work.lsu(arch)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1000 ns
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Region: /gpu_tb/data_mem_read_proc(3)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Region: /gpu_tb/data_mem_read_proc(2)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Region: /gpu_tb/data_mem_read_proc(1)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Region: /gpu_tb/data_mem_read_proc(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /gpu_tb
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /gpu_tb
+# End time: 15:17:03 on Aug 02,2025, Elapsed time: 0:05:17
+# Errors: 0, Warnings: 6

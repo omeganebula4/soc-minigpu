@@ -1,0 +1,83 @@
+library IEEE; use IEEE.STD_LOGIC_1164.all; use IEEE.numeric_std.all;
+library work; use work.types_pkg.all;
+
+entity dispatcher is
+	port(
+		clk : in std_logic;
+		reset : in std_logic;
+		start : in std_logic;
+		core_done : in std_logic_vector(NUM_CORES-1 downto 0);
+		
+		core_start : buffer std_logic_vector(NUM_CORES-1 downto 0);
+		core_reset : buffer std_logic_vector(NUM_CORES-1 downto 0);
+		core_block_ids : out owo;
+		core_thread_count : out thread_num_type;
+		done : out std_logic
+	);
+end;
+
+architecture arch of dispatcher is
+	signal blocks_dispatched : integer := 0;
+	signal blocks_done : integer := 0;
+	signal start_execution : std_logic := '0';
+begin
+
+	process(clk)
+	begin
+	
+		if rising_edge(clk) then
+			if reset = '1' then
+				blocks_dispatched <= 0;
+				done <= '0';
+				blocks_done <= 0;
+				start_execution <= '0';
+				
+				for j in 0 to NUM_CORES-1 loop
+					core_start(j) <= '0';
+					core_reset(j) <= '1';
+					core_block_ids(j) <= (others => '0');
+					core_thread_count(j) <= 4;
+				end loop;
+				
+			elsif start = '1' then
+				if start_execution = '0' then
+					start_execution <= '1';
+					for j in 0 to NUM_CORES-1 loop
+						core_reset(j) <= '1';
+					end loop;
+				end if;
+				
+				if blocks_done = NUM_CORES then
+					done <= '1';
+				end if;
+				
+				for j in 0 to NUM_CORES-1 loop
+					if core_reset(j) = '1' then
+						core_reset(j) <= '0';
+						if blocks_dispatched < NUM_CORES then
+							core_start(j) <= '1';
+							core_block_ids(j) <= std_logic_vector(to_unsigned(blocks_dispatched, 8));
+							
+							if blocks_dispatched = (NUM_CORES-1) then
+								core_thread_count(j) <= NUM_THREADS * NUM_CORES - blocks_dispatched*4;
+							else 
+								core_thread_count(j) <= 4;
+							end if;
+							blocks_dispatched <= blocks_dispatched+1;
+						end if;
+					end if;
+				end loop;
+				
+				for j in 0 to NUM_CORES-1 loop
+					if core_start(j) = '1' and core_done(j) = '1' then
+						core_reset(j) <= '1';
+						core_start(j) <= '0';
+						blocks_done <= blocks_done + 1;
+					end if;
+				end loop;
+			end if;
+			
+		end if;
+	
+	end process;	
+end arch;

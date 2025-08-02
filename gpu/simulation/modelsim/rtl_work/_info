@@ -1,0 +1,723 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/simulation/modelsim
+Ealu
+Z1 w1752587380
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/alu.vhd
+Z6 FC:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/alu.vhd
+l0
+L3 1
+VaA7GVC0<7zbFKfiL:bo1D1
+!s100 `B>1MKANah]d=czA1UA[E3
+Z7 OV;C;2020.1;71
+33
+Z8 !s110 1754127704
+!i10b 1
+Z9 !s108 1754127704.000000
+Z10 !s90 -reportprogress|300|-2008|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/alu.vhd|
+Z11 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/alu.vhd|
+!i113 1
+Z12 o-2008 -work work
+Z13 tExplicit 1 CvgOpt 0
+Aarch
+R2
+R3
+R4
+DEx4 work 3 alu 0 22 aA7GVC0<7zbFKfiL:bo1D1
+!i122 0
+l16
+L15 48
+VRU<G4ESRTZUd>R;8RlR^a3
+!s100 MPToP<Mg:BhM4`F188o1S3
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ecore
+Z14 w1754068053
+Z15 DPx4 work 9 types_pkg 0 22 ^z;ZOiGecL`<Y>J=gZ;[Q1
+R2
+R3
+R4
+!i122 3
+R0
+Z16 8C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/core.vhd
+Z17 FC:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/core.vhd
+l0
+L4 1
+VCH_j0U:QAag5J;o6TOdmF0
+!s100 :[`zfUSoWldkn=bjmm:0C2
+R7
+33
+Z18 !s110 1754127705
+!i10b 1
+Z19 !s108 1754127705.000000
+Z20 !s90 -reportprogress|300|-2008|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/core.vhd|
+Z21 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/core.vhd|
+!i113 1
+R12
+R13
+Aarch
+R15
+R2
+R3
+R4
+DEx4 work 4 core 0 22 CH_j0U:QAag5J;o6TOdmF0
+!i122 3
+l132
+L32 146
+VH3GgOhU?z3IMA`oH356C13
+!s100 m3:=g>VWZN0m9gle53caG3
+R7
+33
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R12
+R13
+Edcr
+Z22 w1753882933
+R15
+R2
+R3
+R4
+!i122 4
+R0
+Z23 8C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/dcr.vhd
+Z24 FC:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/dcr.vhd
+l0
+L4 1
+VY^m6o??6?GU40m32k^]ZW3
+!s100 J3gmM3HbF_e4Zgm;C:Q<?0
+R7
+33
+R18
+!i10b 1
+R19
+Z25 !s90 -reportprogress|300|-2008|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/dcr.vhd|
+Z26 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/dcr.vhd|
+!i113 1
+R12
+R13
+Aarch
+R15
+R2
+R3
+R4
+DEx4 work 3 dcr 0 22 Y^m6o??6?GU40m32k^]ZW3
+!i122 4
+l15
+L14 13
+VTn]3BoUDoPhO2FBe^MMT73
+!s100 [QMbb<LR=[GbY@EgDAfl30
+R7
+33
+R18
+!i10b 1
+R19
+R25
+R26
+!i113 1
+R12
+R13
+Edecoder
+Z27 w1753110882
+R15
+R2
+R3
+R4
+!i122 5
+R0
+Z28 8C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/decoder.vhd
+Z29 FC:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/decoder.vhd
+l0
+L4 1
+VoDHF4e[;LL5JQXlz6JzNm3
+!s100 `Z:ID89T;ZD;bVDN3go331
+R7
+33
+R18
+!i10b 1
+R19
+Z30 !s90 -reportprogress|300|-2008|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/decoder.vhd|
+Z31 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/decoder.vhd|
+!i113 1
+R12
+R13
+Aarch
+R15
+R2
+R3
+R4
+DEx4 work 7 decoder 0 22 oDHF4e[;LL5JQXlz6JzNm3
+!i122 5
+l27
+L25 80
+VOiI=[TEFDzSDFPNJ<]A1b3
+!s100 8OO:zE24lg<afMJ5DI@OT3
+R7
+33
+R18
+!i10b 1
+R19
+R30
+R31
+!i113 1
+R12
+R13
+Edispatcher
+Z32 w1754059747
+R15
+R2
+R3
+R4
+!i122 6
+R0
+Z33 8C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/dispatcher.vhd
+Z34 FC:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/dispatcher.vhd
+l0
+L4 1
+VGbbDVZjkbFC=F2YUPicL03
+!s100 <hcZ:YiKObE?=RHfM7C8E0
+R7
+33
+R18
+!i10b 1
+R19
+Z35 !s90 -reportprogress|300|-2008|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/dispatcher.vhd|
+Z36 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/dispatcher.vhd|
+!i113 1
+R12
+R13
+Aarch
+R15
+R2
+R3
+R4
+DEx4 work 10 dispatcher 0 22 GbbDVZjkbFC=F2YUPicL03
+!i122 6
+l23
+L19 65
+V0z24Gh?9j8]Kd>8bZ5OmZ0
+!s100 ljA:7b4oFKMJBQKTjS_Bj3
+R7
+33
+R18
+!i10b 1
+R19
+R35
+R36
+!i113 1
+R12
+R13
+Efetcher
+Z37 w1754067710
+R15
+R2
+R3
+R4
+!i122 7
+R0
+Z38 8C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/fetcher.vhd
+Z39 FC:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/fetcher.vhd
+l0
+L4 1
+Vb;6ScQLX<WH4Rl=b<mPSj0
+!s100 nk4hn]FdK[OmcH<jUIC<J3
+R7
+33
+R18
+!i10b 1
+R19
+Z40 !s90 -reportprogress|300|-2008|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/fetcher.vhd|
+Z41 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/fetcher.vhd|
+!i113 1
+R12
+R13
+Aarch
+R15
+R2
+R3
+R4
+DEx4 work 7 fetcher 0 22 b;6ScQLX<WH4Rl=b<mPSj0
+!i122 7
+l20
+L18 57
+VIVnS>R71nQF9;`gUS5jLJ1
+!s100 =ehO;CIl9ghVfz<:LccZ]3
+R7
+33
+R18
+!i10b 1
+R19
+R40
+R41
+!i113 1
+R12
+R13
+Egpu
+Z42 w1754072179
+R15
+R2
+R3
+R4
+!i122 14
+R0
+Z43 8C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/gpu.vhd
+Z44 FC:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/gpu.vhd
+l0
+L4 1
+VR`DS4zzVHK[EWNNhKPMb43
+!s100 e1:Ie>B]@CmCK?l`fTXm91
+R7
+33
+Z45 !s110 1754127706
+!i10b 1
+Z46 !s108 1754127706.000000
+Z47 !s90 -reportprogress|300|-2008|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/gpu.vhd|
+Z48 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/gpu.vhd|
+!i113 1
+R12
+R13
+Aarch
+R15
+R2
+R3
+R4
+DEx4 work 3 gpu 0 22 R`DS4zzVHK[EWNNhKPMb43
+!i122 14
+l153
+L31 246
+V?^WBF:j71j>YW>7@L4J@B1
+!s100 hPL7X<VSj4L<8Uj4@:;Xm1
+R7
+33
+R45
+!i10b 1
+R46
+R47
+R48
+!i113 1
+R12
+R13
+Egpu_tb
+Z49 w1754127683
+R15
+R2
+R3
+R4
+!i122 15
+R0
+Z50 8C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/gpu_tb.vhd
+Z51 FC:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/gpu_tb.vhd
+l0
+L8 1
+VLQI_>EceGfVI:4HO3d8gT3
+!s100 zec6Q5@?PfZ80nKdQQR;K3
+R7
+33
+R45
+!i10b 1
+R46
+Z52 !s90 -reportprogress|300|-2008|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/gpu_tb.vhd|
+!s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/gpu_tb.vhd|
+!i113 1
+R12
+R13
+Atb
+R15
+R2
+R3
+R4
+DEx4 work 6 gpu_tb 0 22 LQI_>EceGfVI:4HO3d8gT3
+!i122 15
+l83
+L11 247
+V<XHoNPPV>Q@ZiDfTfUD4f2
+!s100 7>]0ezBN;14CgTD4NR:cY1
+R7
+33
+R45
+!i10b 1
+R46
+R52
+Z53 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/gpu_tb.vhd|
+!i113 1
+R12
+R13
+Elsu
+Z54 w1754073109
+R15
+R2
+R3
+R4
+!i122 8
+R0
+Z55 8C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/lsu.vhd
+Z56 FC:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/lsu.vhd
+l0
+L4 1
+VoGJ@S=D8n`>Gc:YTZL2XA2
+!s100 ?_W;RVVV<gl9;M8d64RKR1
+R7
+33
+R18
+!i10b 1
+R19
+Z57 !s90 -reportprogress|300|-2008|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/lsu.vhd|
+Z58 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/lsu.vhd|
+!i113 1
+R12
+R13
+Aarch
+R15
+R2
+R3
+R4
+DEx4 work 3 lsu 0 22 oGJ@S=D8n`>Gc:YTZL2XA2
+!i122 8
+l28
+L26 67
+V5bQP91X@N23e68OzSMCTR0
+!s100 KB]on=VGf>^zzX>8ONiEC1
+R7
+33
+R18
+!i10b 1
+R19
+R57
+R58
+!i113 1
+R12
+R13
+Emem_controller_instr
+Z59 w1754056057
+R15
+R2
+R3
+R4
+!i122 13
+R0
+Z60 8C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/mem_controller_instr.vhd
+Z61 FC:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/mem_controller_instr.vhd
+l0
+L4 1
+VC3;Q[68nbj?56@kKmW5<K0
+!s100 gQEVT08ITlnfRb;mAamYl1
+R7
+33
+R45
+!i10b 1
+R46
+Z62 !s90 -reportprogress|300|-2008|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/mem_controller_instr.vhd|
+Z63 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/mem_controller_instr.vhd|
+!i113 1
+R12
+R13
+Aarch
+R15
+R2
+R3
+R4
+DEx4 work 20 mem_controller_instr 0 22 C3;Q[68nbj?56@kKmW5<K0
+!i122 13
+l34
+L27 66
+V<5AFA?hj6AGjP?UoP^BbA0
+!s100 hUl<k^IYibIIzQVA3QKdf0
+R7
+33
+R45
+!i10b 1
+R46
+R62
+R63
+!i113 1
+R12
+R13
+Emem_controller_mem
+Z64 w1754055494
+R15
+R2
+R3
+R4
+!i122 12
+R0
+Z65 8C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/mem_controller_mem.vhd
+Z66 FC:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/mem_controller_mem.vhd
+l0
+L4 1
+VAJCD=TDMB_EUJQh=gjnfe1
+!s100 mH@4MfR<:XNki_jZGYm^n2
+R7
+33
+R45
+!i10b 1
+R46
+Z67 !s90 -reportprogress|300|-2008|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/mem_controller_mem.vhd|
+Z68 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/mem_controller_mem.vhd|
+!i113 1
+R12
+R13
+Aarch
+R15
+R2
+R3
+R4
+DEx4 work 18 mem_controller_mem 0 22 AJCD=TDMB_EUJQh=gjnfe1
+!i122 12
+l42
+L35 92
+Vo3_7e6jb0Kj[d09:EM>1D2
+!s100 [D6>T5Q7bT74GRWNY;bmJ2
+R7
+33
+R45
+!i10b 1
+R46
+R67
+R68
+!i113 1
+R12
+R13
+Epc
+Z69 w1753812186
+R2
+R3
+R4
+!i122 1
+R0
+Z70 8C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/pc.vhd
+Z71 FC:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/pc.vhd
+l0
+L3 1
+VUOg^QaUAAac@l^1WlA@Y61
+!s100 SVHT3fT2mfQ2<=MO:82>g3
+R7
+33
+R18
+!i10b 1
+R9
+Z72 !s90 -reportprogress|300|-2008|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/pc.vhd|
+Z73 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/pc.vhd|
+!i113 1
+R12
+R13
+Aarch
+R2
+R3
+R4
+DEx4 work 2 pc 0 22 UOg^QaUAAac@l^1WlA@Y61
+!i122 1
+l19
+L17 35
+VzY2AHMi0gzg3gIoo1Wac91
+!s100 h_A2S]Z9bVaY:N=VBhU0L0
+R7
+33
+R18
+!i10b 1
+R9
+R72
+R73
+!i113 1
+R12
+R13
+Erf
+Z74 w1753899271
+R15
+R2
+R3
+R4
+!i122 9
+R0
+Z75 8C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/rf.vhd
+Z76 FC:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/rf.vhd
+l0
+L4 1
+VmGmIBDoC=L]NiWbiGBo9<1
+!s100 E1gkH9XkHVE>DVc5XJOBf3
+R7
+33
+R18
+!i10b 1
+R19
+Z77 !s90 -reportprogress|300|-2008|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/rf.vhd|
+Z78 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/rf.vhd|
+!i113 1
+R12
+R13
+Aarch
+R15
+R2
+R3
+R4
+DEx4 work 2 rf 0 22 mGmIBDoC=L]NiWbiGBo9<1
+!i122 9
+l26
+L23 50
+V=[16n=ja^o3Q1eOdNzD2[1
+!s100 =1hSa4D[??zG8`8GOgMX]0
+R7
+33
+R18
+!i10b 1
+R19
+R77
+R78
+!i113 1
+R12
+R13
+Escheduler
+Z79 w1753463679
+R15
+R2
+R3
+R4
+!i122 10
+R0
+Z80 8C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/scheduler.vhd
+Z81 FC:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/scheduler.vhd
+l0
+L4 1
+VDIK0CX:zim5YLdcT9OE3h0
+!s100 9g:XD]Fc@S4AWG>JHH=d=2
+R7
+33
+R18
+!i10b 1
+R19
+Z82 !s90 -reportprogress|300|-2008|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/scheduler.vhd|
+Z83 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/scheduler.vhd|
+!i113 1
+R12
+R13
+Aarch
+R15
+R2
+R3
+R4
+DEx4 work 9 scheduler 0 22 DIK0CX:zim5YLdcT9OE3h0
+!i122 10
+l23
+L20 80
+VPCTz>e2oILTTe?A0Jf32O3
+!s100 GV4[c;X:0Cf]7agA9Eh0M0
+R7
+33
+R18
+!i10b 1
+R19
+R82
+R83
+!i113 1
+R12
+R13
+Ethread
+Z84 w1754068092
+R15
+R2
+R3
+R4
+!i122 11
+R0
+Z85 8C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/thread.vhd
+Z86 FC:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/thread.vhd
+l0
+L4 1
+VoXDIWN_6ZC>^hdHlGTlhh1
+!s100 ]nelCE>2:XB?f`UiQDh?R2
+R7
+33
+R45
+!i10b 1
+R46
+Z87 !s90 -reportprogress|300|-2008|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/thread.vhd|
+Z88 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/thread.vhd|
+!i113 1
+R12
+R13
+Aarch
+R15
+R2
+R3
+R4
+DEx4 work 6 thread 0 22 oXDIWN_6ZC>^hdHlGTlhh1
+!i122 11
+l110
+L41 75
+VXc4A3A7`QSSiAW6o5^YcD0
+!s100 TYENSXW;S[TN]T5<BlK5X1
+R7
+33
+R45
+!i10b 1
+R46
+R87
+R88
+!i113 1
+R12
+R13
+Ptypes_pkg
+R3
+R4
+!i122 2
+Z89 w1754061439
+R0
+Z90 8C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/types_pkg.vhd
+Z91 FC:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/types_pkg.vhd
+l0
+L4 1
+V^z;ZOiGecL`<Y>J=gZ;[Q1
+!s100 [_Y>X7I0?OEZ0QAe=`C4=2
+R7
+33
+R18
+!i10b 1
+R19
+Z92 !s90 -reportprogress|300|-2008|-work|work|C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/types_pkg.vhd|
+Z93 !s107 C:/Users/harsh/Desktop/Coding/quartus_arch_design/gpu/types_pkg.vhd|
+!i113 1
+R12
+R13
+Bbody
+R15
+R3
+R4
+!i122 2
+l0
+L27 1
+VSP>WYNKfVWn_XGmJlQ5]R0
+!s100 F7b[bb@J:4gza;BTgTNz73
+R7
+33
+R18
+!i10b 1
+R19
+R92
+R93
+!i113 1
+R12
+R13
